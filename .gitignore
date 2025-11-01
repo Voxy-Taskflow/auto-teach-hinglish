@@ -1,0 +1,68 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+.Python
+*.log
+
+# ---- Virtual Environments ----
+venv/
+.venv/
+env/
+ENV/
+*.env
+*.venv
+pip-wheel-metadata/
+pip-log.txt
+
+# ---- Model / Data Artifacts ----
+models/
+model_cache/
+hf_cache/
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+*.jsonl
+*.csv
+*.pkl
+*.db
+*.sqlite3
+
+# ---- Node / Frontend ----
+node_modules/
+dist/
+build/
+*.lock
+*.tsbuildinfo
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ---- System ----
+.DS_Store
+Thumbs.db
+
+# ---- Secrets ----
+.env
+.env.local
+.env.*
+*.pem
+*.key
+
+# ---- Deployment ----
+*.bak
+*.swp
+*.tmp
+*.log
+*.pid
+
+#-----Inputs-------
+.json

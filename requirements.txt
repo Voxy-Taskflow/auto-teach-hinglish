@@ -1,0 +1,35 @@
+# ---- Core Framework ----
+fastapi==0.115.2
+uvicorn==0.30.1
+
+# ---- LLM Clients ----
+openai==1.42.0
+requests==2.32.3
+huggingface-hub==0.24.5
+transformers==4.44.2
+accelerate==0.34.2
+bitsandbytes==0.43.1
+sentencepiece==0.2.0
+
+# ---- Local LLM Runner (Ollama optional) ----
+ollama==0.1.8   # optional, use if hosting Llama 3 locally via Ollama
+
+# ---- NLP + Preprocessing ----
+spacy==3.7.5
+indic-nlp-library==0.92
+torch==2.4.0
+IndicTransToolkit==1.1.1
+
+# ---- Database ----
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.36
+
+# ---- Visualization ----
+graphviz==0.20.3
+pydot==2.0.0
+
+# ---- Utilities ----
+python-dotenv==1.0.1
+pydantic==2.8.2
+tqdm==4.66.5
+loguru==0.7.2

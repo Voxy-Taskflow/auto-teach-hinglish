@@ -1,0 +1,23 @@
+[
+    {
+        "input": "ye if else aur switch statement mein kya farak hai?",
+        "timestamp": "2025-11-01T12:50:41.661326",
+        "preprocessed": {
+            "original_text": "ye if else aur switch statement mein kya farak hai?",
+            "cleaned_text": "if else switch statement",
+            "is_code_mixed": true,
+            "detected_language": "mixed",
+            "translated_text": "What if there's something that's going to happen?"
+        },
+        "intent": {
+            "intent": "concept_explanation",
+            "confidence": 0.9,
+            "reason": "Detected keyword(s) like 'kya' indicating conceptual query."
+        },
+        "response": {
+            "response_text": "This looks like a conceptual question. I\u2019ll fetch a clear explanation for you soon.",
+            "intent": "concept_explanation",
+            "timestamp": "2025-11-01T12:50:42.500278"
+        }
+    }
+]
